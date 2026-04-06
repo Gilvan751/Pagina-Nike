@@ -121,3 +121,89 @@ button:hover {
     background: #aa0505;
     transform: translateY(-5px);
 }
+
+.secondary-button {
+    display: inline-block;
+    width: fit-content;
+    padding: 12px 28px;
+    border: 2px solid #fff;
+    color: #fff;
+    text-decoration: none;
+    margin-top: 15px;
+    transition: all 0.3s;
+}
+
+.secondary-button:hover {
+    background: #fff;
+    color: #1e2227;
+}
+
+.back-button {
+    margin-top: 0;
+    margin-bottom: 24px;
+}
+
+.products-page {
+    min-height: 100vh;
+    height: auto;
+    padding-bottom: 50px;
+}
+
+.products-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 140px 8% 40px;
+}
+
+.products-content h1 {
+    font-size: 52px;
+    margin-bottom: 10px;
+}
+
+.products-content p {
+    color: #d6d6d6;
+    margin-bottom: 30px;
+}
+
+.products-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+.product-card {
+    background: #2a2f35;
+    border-radius: 14px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.product-card img {
+    width: 100%;
+    transform: rotate(-18deg);
+    margin: 12px 0;
+}
+
+.product-card h2 {
+    font-size: 22px;
+}
+
+.product-card p {
+    margin-bottom: 0;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.product-card strong {
+    font-size: 22px;
+    margin-top: auto;
+}
+
+.product-card button {
+    margin-top: 6px;
+    width: 100%;
+    text-align: center;
+    padding: 14px 10px;
+}
